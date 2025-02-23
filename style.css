@@ -1,0 +1,156 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background: black;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav input {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner.jpg') center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+ 
+    padding: 40px 40px;
+    background: #f5f5f5;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 40px 0px 40px 0px;
+    border: 7px solid #b71c1c;
+    margin-bottom: 10px;
+}
+
+/* Highlight */
+.highlight {
+    background: #b71c1c;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    line-height: 1.8; 
+}
+
+/* Program Section */
+.program-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.program-content {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.program-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.program-content p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.program-image {
+    flex: 1;
+    text-align: right;
+}
+
+.program-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Adds smooth rounded corners */
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section{
+    width: 20%;
+}
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.informsg{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #951717;
+    height: 40px;
+}
